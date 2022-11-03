@@ -2,7 +2,7 @@
 
 ```bash
 # clonar repositório
-git clone https://github.com/alcemirjunior/desafio-tunts.git
+git clone https://github.com/alcemirjunior/tunts.git
 ```
 
 ```bash

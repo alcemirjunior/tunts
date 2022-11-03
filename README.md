@@ -1,17 +1,22 @@
 # Como executar o projeto
 
+Requisito: Java 17(ZULU) versão 17.0.5-zulu
+
 ```bash
 # clonar repositório
 git clone https://github.com/alcemirjunior/tunts.git
 ```
-
-```bash
 # executar o projeto
-./mvnw spring-boot:run
+```bash
+mvn clean package
+mvn spring-boot:run
+```
+```bash
+mvn spring-boot:run
 ```
 
-```bash
 # efetuar a requisição
+```bash
 curl http://localhost:8080/api/v1/tunts-challenge
 ```
 
